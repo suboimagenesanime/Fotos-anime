@@ -1,0 +1,101 @@
+/**
+ * @name Anicord
+ * @description Yes, this is another anime Discord theme. 
+ * @author sangsdayy
+ * @authorLink https://github.com/sang765
+ * @version 1.5.9
+ * @website https://github.com/sang765/Anicord-Theme
+ * @source https://github.com/sang765/Anicord-Theme/blob/main/Anicord.theme.css
+ * @authorId 926519119849869322
+ * @updateUrl https://sang765.github.io/Anicord-Theme/Anicord.theme.css
+*/
+
+/*
+ᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳ𝑨𝒏𝒊𝒎𝒆 𝒊𝒏𝒔𝒊𝒅𝒆 𝑫𝒊𝒔𝒄𝒐𝒓𝒅ᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳ
+| ᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳ |
+| |     █████╗ ███╗   ██╗██╗ ██████╗ ██████╗ ██████╗ ██████╗    | |
+| |    ██╔══██╗████╗  ██║██║██╔════╝██╔═══██╗██╔══██╗██╔══██╗   | |
+| |    ███████║██╔██╗ ██║██║██║     ██║   ██║██████╔╝██║  ██║   | |
+| |    ██╔══██║██║╚██╗██║██║██║     ██║   ██║██╔══██╗██║  ██║   | |
+| |    ██║  ██║██║ ╚████║██║╚██████╗╚██████╔╝██║  ██║██████╔╝   | |
+| |    ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝    | |
+| ᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳ |
+|ᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳ
+*/  
+
+/* Theme Import */
+@import url('https://sang765.github.io/Anicord-Theme/themes/Anicord.css');
+/* CSS You Can Custom */
+:root {
+	--app-bg: url(https://raw.githubusercontent.com/suboimagenesanime/Fotos-anime/6d3bf640422f7619c38b9e0982b937642951eb20/Sarashina.Ruka.full.3880304.jpg); /* background */
+	/* 📄 NOTE: If you want the background to be transparent then you can remove the `url(imageurl)` and then change the attribute to `transparent`
+           Requirements: Please enable "Windows Transparent" in your client mod make sure that work. You aslo can use Mica For Everyone to have a transparent backgound with Mica blur effect */
+	/* Blur, Margin, Radius */
+	--app-blur: 0px;
+	--app-margin: 0px;
+	--app-radius: 0px;
+	/* Font */
+	--main-font: 'Tilt Neon';
+	--code-font: '';
+	/* Server Title */
+	--title-style: center; /* left or center*/
+	/* Color - HSLA */ /* Hex to HSL here: https://htmlcolors.com/hex-to-hsl */
+	--accent-hue: 204; /* H */
+	--accent-saturation: 90%; /* S */
+	--accent-lightness: %; /* L */
+	--accent-opacity: 0; /* A */
+	--accent-text-color: #ee0caa; /* Text Color */
+	/* Others */
+	--sidebar-color: rgba(0, 0, 0, 0);
+	--main-content-color: rgba(0, 0, 0, 0); /*	-	*/
+	/* Message */
+	--message-color: #00000000;
+	--message-radius: 0px;
+	--message-padding-top: 1px;
+	--message-padding-side: 8px; /*	-	*/
+	/* Reply */
+	--reply-hue: var(--accent-hue);
+	--reply-saturation: 45%;
+	--reply-lightness: 50%;
+	--reply-opacity: 0%; /*	-	*/
+	/* Textarea */
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #00000000;
+	--textarea-radius: 22px;  /*	-	*/
+	/* Card */
+	--card-color: rgba(0, 0, 0, 0);
+	--card-color-hover: rgba(0, 0, 0, 0);
+	--card-color-select: rgba(0, 0, 0, 0); /*	-	*/
+	/* Button */
+	--button-height: 32px;
+	--button-padding: 0 16px;
+	--button-action-color: #13cae2;
+	--button-radius: 16px; /*	-	*/
+	/* Scrollbar */
+	--interactive-normal: #ff00bf;
+	--interactive-hover: #e70883b4;
+	--interactive-active: #e9098bab;
+	--interactive-muted: #f80441c7; /*	-	*/
+	/* Background */
+	--background-modifier-hover: rgba(236, 10, 135, 0.61);
+	--background-modifier-selected: rgba(221, 8, 157, 0.747);
+}
+
+/*
+			            <= CREDITS =>
+			            			<= CREDITS =>
+|<================================= Anicord Team ==================================>|
+| <+>           sang765                                       Author		    |
+|<=================================================================================>|
+| <-> Settings Icons                           by DevilBro			    |
+| <-> Better Mark As Read Button               by Lonk		         	    |
+| <-> Chillax                                  by warrayquipsome and Contributors   |
+| <-> Translucence                             by CapnKitten			    |
+| <-> ClearVersionV6                           by NyxIsBad and Contributors	    |
+| <-> BetterDiscord Custom CSS Community       https://discord.gg/0Tmfo5ZbORCRqbAd  |
+| <-> Vencord Custom CSS Community             https://discord.gg/D9uwnFnqmd	    |
+| <-> You                                      for using this theme		    |
+|<=================================================================================>|
+*/
